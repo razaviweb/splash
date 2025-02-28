@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+main{
+    >.part1{
+        >div{
+            >figure{
+                display: flex;
+                img{
+                    margin: 50px auto;
+                    width: 260px;
+                }
+            }
+            >h1{
+                text-align: center;
+                font-size: 85px;
+                color: white;
+                margin-bottom: 20px;
+            }
+            >p{
+                text-align: center;
+                color: darkgrey;
+                padding: 25px;
+                font-size: 20px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+    >.part2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        gap: 60px;
+        flex-wrap: wrap;
+
+        >div{
+            flex-direction: column;
+            display: flex;
+
+            >figure{
+                margin-top: 30px;
+                >img{
+                    width: 350px;
+                    gap: 30px;
+                    border-radius: 8px; 
+                }
+            }
+            >h3{
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            >a{
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                background-color: rgb(210, 152, 81);
+                width: 50%;
+                margin: 20px auto;
+                padding:10px 20px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+    >footer{
+        background-color: rgb(25, 13, 13);
+        padding: 20px;
+        color: darkgray;
+        text-align: center;
+        >a{
+            text-decoration: none;
+            color: burlywood;
+        }
+    }
+}
+
